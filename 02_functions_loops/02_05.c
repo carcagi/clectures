@@ -9,8 +9,8 @@ int main()
         printf("Enter a number: ");
         scanf("%lf", &number);
         sum += number;
-    }
-    while(number != 0.0);
+    }while(number != 0.0);
+    
 
     printf("Sum = %.2lf",sum);
 
